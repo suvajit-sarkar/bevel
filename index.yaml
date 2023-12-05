@@ -82,6 +82,177 @@ entries:
     urls:
     - https://github.com/hyperledger/bevel/releases/download/besu_connector-0.15.0/besu_connector-0.15.0.tgz
     version: 0.15.0
+  fabric-anchorpeer:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.116209374Z"
+    description: 'Hyperledger Fabric: Updates the anchorpeer details.'
+    digest: fabd4ab48fc3105862276219154a1809ddb97adeb89350e4393d204a57112e5a
+    name: fabric-anchorpeer
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-anchorpeer-0.15.0/fabric-anchorpeer-0.15.0.tgz
+    version: 0.15.0
+  fabric-ca-server:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.255838201Z"
+    description: 'Hyperledger Fabric: Deploys a CA server.'
+    digest: 316d4ea85f1d2bd124b31b85818b7b895c54579884a9c390670f290553865575
+    name: fabric-ca-server
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-ca-server-0.15.0/fabric-ca-server-0.15.0.tgz
+    version: 0.15.0
+  fabric-cacerts-gen:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.373592575Z"
+    description: 'Hyperledger Fabric: Generates CA Server certs.'
+    digest: 06796a76a910641f589b7fd9c6b8aa7e74fb64c84cf81df5cdfbb6f04ebde7bb
+    name: fabric-cacerts-gen
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-cacerts-gen-0.15.0/fabric-cacerts-gen-0.15.0.tgz
+    version: 0.15.0
+  fabric-cacti-connector:
+  - apiVersion: v2
+    appVersion: 1.1.3
+    created: "2023-12-05T11:56:40.508612851Z"
+    description: 'Hyperledger Fabric: Deploys Cactus Fabric Connector.'
+    digest: f21ee6329c7700e8e5402a41b78f0bce07be7e738fe3b2dcb061fc2039faf4a0
+    name: fabric-cacti-connector
+    type: application
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-cacti-connector-0.15.0/fabric-cacti-connector-0.15.0.tgz
+    version: 0.15.0
+  fabric-catools:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.663384777Z"
+    description: 'Hyperledger Fabric: Deploys a Fabric CA tools.'
+    digest: 1cfbeda58a3babdf4c43da004e795254290e845c66727e993d3a83729e40e6da
+    name: fabric-catools
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-catools-0.15.0/fabric-catools-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-approve:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.801163294Z"
+    description: 'Hyperledger Fabric: Approves the chaincode.'
+    digest: 34b7e84c760e74c70793b959afc6ad2e3d6d71b1dde00d6cbf6386f56967335f
+    name: fabric-chaincode-approve
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-approve-0.15.0/fabric-chaincode-approve-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-commit:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:40.93997085Z"
+    description: 'Hyperledger Fabric: Commits a chaincode to a channel.'
+    digest: 64665a1bd45cf679ba628ad058c7e11a30fee50139150849fa5acda322bebd2d
+    name: fabric-chaincode-commit
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-commit-0.15.0/fabric-chaincode-commit-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-install:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.086194758Z"
+    description: 'Hyperledger Fabric: Installs chaincode on a peer.'
+    digest: f2d203fe134e8a854884e8e93f982c6cb2c90fd6f4341b5ced3e0def66b9ff1b
+    name: fabric-chaincode-install
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-install-0.15.0/fabric-chaincode-install-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-instantiate:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.22374544Z"
+    description: 'Hyperledger Fabric: Instantiates chaincode on a peer.'
+    digest: ca7bd5af9e327c0c123eaa8a76bbe75ab61a82c25de9e74e22126ee7579cd3a0
+    name: fabric-chaincode-instantiate
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-instantiate-0.15.0/fabric-chaincode-instantiate-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-invoke:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.345384126Z"
+    description: 'Hyperledger Fabric: Invokes chaincode on a peer.'
+    digest: 58754a7c412212e5a051fff25cff81116f920cffe292cc86170ec3869cb9a384
+    name: fabric-chaincode-invoke
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-invoke-0.15.0/fabric-chaincode-invoke-0.15.0.tgz
+    version: 0.15.0
+  fabric-chaincode-upgrade:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.52705268Z"
+    description: 'Hyperledger Fabric: Upgrades chaincode on a peer.'
+    digest: 6e267f8842842862e2c1f513ea7859784c97e22f27e7b1d2019efcd70d6589ad
+    name: fabric-chaincode-upgrade
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-chaincode-upgrade-0.15.0/fabric-chaincode-upgrade-0.15.0.tgz
+    version: 0.15.0
+  fabric-channel-create:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.663680605Z"
+    description: 'Hyperledger Fabric: Creates channel.'
+    digest: 89a94cf4b62c0a7a3eaa478a07695bbb9e74f84c8c613e4a06e02f083b34a263
+    name: fabric-channel-create
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-channel-create-0.15.0/fabric-channel-create-0.15.0.tgz
+    version: 0.15.0
+  fabric-channel-join:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.79414014Z"
+    description: 'Hyperledger Fabric: Joins the peer to the channel.'
+    digest: f587bb0d09d76a4dc38f30a42374a3a418c53377ca963d58902464db9ed560fc
+    name: fabric-channel-join
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-channel-join-0.15.0/fabric-channel-join-0.15.0.tgz
+    version: 0.15.0
+  fabric-cli:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:41.931365703Z"
+    description: 'Hyperledger Fabric: Deploys Fabric Cli.'
+    digest: c3280da0f3898137fe0e153f3fafc2e60172d212816ff28c524db90e8bd19796
+    name: fabric-cli
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-cli-0.15.0/fabric-cli-0.15.0.tgz
+    version: 0.15.0
+  fabric-external-chaincode:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:42.083257076Z"
+    description: 'Hyperledger Fabric: Deploys external chaincode server.'
+    digest: e92b966663f979a7c2e113c53c8f0b64783046a257dab4b9ff50088c48c7ab85
+    name: fabric-external-chaincode
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-external-chaincode-0.15.0/fabric-external-chaincode-0.15.0.tgz
+    version: 0.15.0
+  fabric-external-chaincode-install:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:42.241616408Z"
+    description: 'Hyperledger Fabric: Installs external chaincode.'
+    digest: f7fce177a844259dc7147b1b192e8e3ee240d8036d5a277c1bfadb0cca19d5b6
+    name: fabric-external-chaincode-install
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-external-chaincode-install-0.15.0/fabric-external-chaincode-install-0.15.0.tgz
+    version: 0.15.0
+  fabric-operations-console:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:42.383076149Z"
+    description: 'Hyperledger Fabric: Deploys Fabric Operations Console.'
+    digest: d468c508c18ebd9f73aede97c41279803ce70959ea366e688e82cba8d7a1c1d7
+    name: fabric-operations-console
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-operations-console-0.15.0/fabric-operations-console-0.15.0.tgz
+    version: 0.15.0
   fabric-orderernode:
   - apiVersion: v1
     appVersion: "2.0"
@@ -102,4 +273,24 @@ entries:
     urls:
     - https://github.com/hyperledger/bevel/releases/download/fabric-osnadmin-channel-create-0.15.0/fabric-osnadmin-channel-create-0.15.0.tgz
     version: 0.15.0
-generated: "2023-12-05T11:24:17.907035175Z"
+  fabric-peernode:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:42.805665891Z"
+    description: 'Hyperledger Fabric: Deploys peer node.'
+    digest: c342f9d265d70d9229afad1912f93e73cadbfa90c916b2d6bc1a780135367822
+    name: fabric-peernode
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-peernode-0.15.0/fabric-peernode-0.15.0.tgz
+    version: 0.15.0
+  zkkafka:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-05T11:56:42.940405338Z"
+    description: 'Hyperledger Fabric: Deploys zookeeper & kafka.'
+    digest: d029a9c30885994d2c2555fedc503e394385ebfec0cf626f64160b792909b6a9
+    name: zkkafka
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/zkkafka-0.15.0/zkkafka-0.15.0.tgz
+    version: 0.15.0
+generated: "2023-12-05T11:56:42.940416749Z"
