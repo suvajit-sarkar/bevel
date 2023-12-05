@@ -9,6 +9,7 @@ on:
         type: choice
         options:
         - bes
+        - besu
 
 jobs:
   release:
@@ -38,76 +39,5 @@ jobs:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
           charts_dir: platforms/hyperledger-besu/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'besu' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
+        if: ${{ github.event.inputs.platformChoice == 'besu' }}
         
-      - name: Fabric charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/hyperledger-fabric/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'fabric' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-
-      - name: Indy charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/hyperledger-indy/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'indy' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-
-      - name: Quorum charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/quorum/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'quorum' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-        
-      - name: Corda charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/r3-corda/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'r3-corda' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-        
-      - name: Corda Enterprise charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/r3-corda-ent/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'r3-corda-ent' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-        
-      - name: Substrate charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/substrate/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'substrate' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
-        
-      - name: Shared charts
-        uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          charts_dir: platforms/shared/charts
-        if: |
-          ${{ github.event.inputs.platformChoice == 'shared' }} ||
-          ${{ github.event.inputs.platformChoice == 'all' }}
