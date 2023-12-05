@@ -48,7 +48,7 @@ jobs:
         with:
           charts_dir: platforms/hyperledger-besu/charts
         if: |
-          ${{ github.events.inputs.platformChoice == 'besu' }} ||
+          ${{ github.event.inputs.platformChoice == 'besu' }} ||
           ${{ github.event.inputs.platformChoice == 'all' }}
         
       - name: Fabric charts
