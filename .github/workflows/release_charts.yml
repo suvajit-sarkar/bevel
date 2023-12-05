@@ -44,9 +44,10 @@ jobs:
       - name: Release all charts
         uses: helm/chart-releaser-action@v1.6.0
         with:
-          charts_dir: platforms/hyperledger-fabric/charts
+          charts_dir: platforms/hyperledger-besu/charts
           mark_as_latest: false
           skip_existing: false
+          packages_with_index: true
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         
