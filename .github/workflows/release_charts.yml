@@ -6,18 +6,9 @@ on:
       platformChoice:
         description: 'Release chart for specific platform'
         required: true
-        default: 'all'
         type: choice
         options:
-        - besu
-        - fabric
-        - indy
-        - quorum
-        - r3-corda
-        - r3-corda-ent
-        - substrate
-        - shared
-        - all
+        - bes
 
 jobs:
   release:
