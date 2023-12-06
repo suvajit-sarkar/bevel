@@ -99,6 +99,8 @@ jobs:
         uses: helm/chart-releaser-action@v1.6.0
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_SKIP_EXISTING: false
+          CR_PACKAGES_WITH_INDEX: true
         with:
           charts_dir: platforms/shared/charts
         if: ${{ github.event.inputs.platformChoice == 'shared' }}
