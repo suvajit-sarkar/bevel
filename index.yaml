@@ -82,6 +82,47 @@ entries:
     urls:
     - https://github.com/hyperledger/bevel/releases/download/besu_connector-0.15.0/besu_connector-0.15.0.tgz
     version: 0.15.0
+  bevel-image-automation:
+  - apiVersion: v2
+    appVersion: 0.2.3
+    created: "2023-12-06T19:33:12.079545726Z"
+    description: Bevel Image Automation using Flux V2
+    digest: ef83ed32dec502c11013b81a231b50f2a5fc6fb386317aa6557bad159d527579
+    name: bevel-image-automation
+    urls:
+    - bevel-image-automation-0.2.3.tgz
+    version: 0.2.3
+  bevel-scripts:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-06T19:33:12.279203488Z"
+    description: 'Shared: Create configmaps of scripts used in Bevel'
+    digest: 614655744cfb1a0f35dc6e0a841f8737bfe2044858ff98f8d9ca0f25c34321b8
+    name: bevel-scripts
+    urls:
+    - bevel-scripts-0.15.0.tgz
+    version: 0.15.0
+  bevel-storageclass:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-06T19:33:12.472460187Z"
+    description: 'Shared: Deploys a StorageClass that can be used to provision persistent
+      volumes for nodes.'
+    digest: 56a00f68011d93f229e91c548526128d0c6a2d3cd16a9c747ec55d9b9687975f
+    name: bevel-storageclass
+    urls:
+    - bevel-storageclass-0.15.0.tgz
+    version: 0.15.0
+  bevel-vault-mgmt:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-06T19:33:12.652989094Z"
+    description: Bevel Chart for vault and kubernetes configuration
+    digest: fb0927c74525ea56be8769a7d3b27779bde463ab6f74939cec23bd8e674162a4
+    name: bevel-vault-mgmt
+    urls:
+    - bevel-vault-mgmt-0.15.0.tgz
+    version: 0.15.0
   fabric-anchorpeer:
   - apiVersion: v1
     appVersion: "2.0"
@@ -283,6 +324,26 @@ entries:
     urls:
     - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-peernode-0.15.0/fabric-peernode-0.15.0.tgz
     version: 0.15.0
+  leteencrypt-cert:
+  - apiVersion: v2
+    created: "2023-12-06T19:33:12.864282607Z"
+    description: A Helm chart for creating TLS certificates using letencrypt CA
+    digest: 154902acc2f3b6556e955531e811db725083a054b292e1a0cc067640a169c84a
+    name: leteencrypt-cert
+    type: application
+    urls:
+    - leteencrypt-cert-0.15.0.tgz
+    version: 0.15.0
+  letsencrypt-issuer:
+  - apiVersion: v2
+    created: "2023-12-06T19:33:13.061550267Z"
+    description: A Helm chart for creating clusterissuer
+    digest: 018002f4e334084c8e1b0f80b8a4f7a4461df08a22bee0d5292a4b97545a4089
+    name: letsencrypt-issuer
+    type: application
+    urls:
+    - letsencrypt-issuer-0.15.0.tgz
+    version: 0.15.0
   zkkafka:
   - apiVersion: v1
     appVersion: "2.0"
@@ -293,4 +354,4 @@ entries:
     urls:
     - https://github.com/suvajit-sarkar/bevel/releases/download/zkkafka-0.15.0/zkkafka-0.15.0.tgz
     version: 0.15.0
-generated: "2023-12-05T11:56:42.940416749Z"
+generated: "2023-12-06T19:33:13.061562119Z"
