@@ -324,6 +324,66 @@ entries:
     urls:
     - https://github.com/suvajit-sarkar/bevel/releases/download/fabric-peernode-0.15.0/fabric-peernode-0.15.0.tgz
     version: 0.15.0
+  indy-auth-job:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:31.847135216Z"
+    description: 'hyperledger-indy: Creates an indy authorization job'
+    digest: 5a752c06109726699c7238f5050f1adabe20c7d6ddccad8634cf4e5f6d10ec27
+    name: indy-auth-job
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-auth-job-0.15.0/indy-auth-job-0.15.0.tgz
+    version: 0.15.0
+  indy-domain-genesis:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:31.987090742Z"
+    description: 'hyperledger-indy: Creates config map for domain transactions genesis'
+    digest: 06e1bf7d423f0cf53d8c44b2f72c0fd8a3de2a84dfab5dee38f43820a8241e08
+    name: indy-domain-genesis
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-domain-genesis-0.15.0/indy-domain-genesis-0.15.0.tgz
+    version: 0.15.0
+  indy-key-mgmt:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:32.112416222Z"
+    description: 'hyperledger-indy: indy-key-mgmt'
+    digest: 7a20a68f3aa6e4873d2dcb3656e54900e9f8ab62126305600f69637acb1602ce
+    name: indy-key-mgmt
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-key-mgmt-0.15.0/indy-key-mgmt-0.15.0.tgz
+    version: 0.15.0
+  indy-ledger-chart:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:32.24787599Z"
+    description: 'hyperledger-indy: Indy Ledger Script for Issuing a NYM Transaction'
+    digest: 7043dfd9725b2b6a76a19c13d0b23f7523bf878a63a030f3239d098a2eca76ee
+    name: indy-ledger-chart
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-ledger-chart-0.15.0/indy-ledger-chart-0.15.0.tgz
+    version: 0.15.0
+  indy-node:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:32.396060898Z"
+    description: 'hyperledger-indy: charts for indy-node StatefulSet'
+    digest: a092d414f9aa835f15e845bff840f97b80dc1226848b3dd5a1240f352475d73e
+    name: indy-node
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-node-0.15.0/indy-node-0.15.0.tgz
+    version: 0.15.0
+  indy-pool-genesis:
+  - apiVersion: v1
+    appVersion: "2.0"
+    created: "2023-12-07T04:21:32.523986172Z"
+    description: 'hyperledger-indy: indy-pool-genesis'
+    digest: 095c3bd1d18b97154841136378d3123824877f24a9b4f0be0471f13a6d50ae40
+    name: indy-pool-genesis
+    urls:
+    - https://github.com/suvajit-sarkar/bevel/releases/download/indy-pool-genesis-0.15.0/indy-pool-genesis-0.15.0.tgz
+    version: 0.15.0
   leteencrypt-cert:
   - apiVersion: v2
     created: "2023-12-06T19:33:12.864282607Z"
@@ -354,4 +414,4 @@ entries:
     urls:
     - https://github.com/suvajit-sarkar/bevel/releases/download/zkkafka-0.15.0/zkkafka-0.15.0.tgz
     version: 0.15.0
-generated: "2023-12-06T19:33:13.061562119Z"
+generated: "2023-12-07T04:21:32.524002272Z"
