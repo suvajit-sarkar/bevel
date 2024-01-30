@@ -1,14 +1,7 @@
 ---
 name: spell check
 on:
-  push:
-    branches:
-    - "**"
-  pull_request:
-    paths:
-      - 'docs/*.md'
-    types: [opened, edited, updated]          
-
+  workflow_dispatch:
 env:
   SPELL_CHECK_DISABLED: false
 
@@ -34,5 +27,5 @@ jobs:
       uses: rojopolis/spellcheck-github-actions@0.34.0
       with:
         config_path: .github/.spellcheck.yaml
-        source_files: 'docs/*.md'       # name of the file to check the spell 
+        source_files: 'docs/**/*.md'       # name of the file to check the spell 
         task_name: Markdown
