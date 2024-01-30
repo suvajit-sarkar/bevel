@@ -22,3 +22,5 @@ matrix:
       - 'code'
       - 'pre'
       - 'blockquote'
+  sources:
+  - 'docs/**/*.md'
